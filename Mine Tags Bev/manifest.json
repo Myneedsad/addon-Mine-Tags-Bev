@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mine Tags",
+    "description": "ขอบคุณที่อุดหนุนสินค้าจากร้าน Star Store",
+    "min_engine_version": [1, 21, 70],
+    "uuid": "b7d6cadf-0770-4a33-9bee-51ea4e4b0b20",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f2c67617-975b-4597-870a-cfc0007afd65",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "entry": "scripts/index.js",
+      "uuid": "a57da2d9-fdff-4fc7-ad37-f7dc18ce1d2b",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.18.0"
+    }
+  ]
+}
